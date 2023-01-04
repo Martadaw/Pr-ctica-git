@@ -1,0 +1,24 @@
+<title>Push and pull 8</title>
+<p>En primer lugar veremos lo que pide el ejercicio</p>
+<img src="ej2/enunciado.png">
+<p>En primer lugar para empezar con la resolución del ejercicio empezaremos restableciendo la rama main</p>
+<p>para ello utilizaremos el siguiente comando:</p>
+<img src="ej2/1coando.png">
+<p>al escribir git reset --hard (lo que queremos restablecer), el historial
+    de commits se restablece a ese commit especificado.
+
+</p>
+<p>Este sería el resultado de este comando:</p>
+<img src="ej2/res1.png">
+<p>Como podemos comprobar el resultado de este comando nos muestra que se ha restablecido la rama main a los cambios que teniamos en remoto y ahora se encuentran en el mismo lado</p>
+<p>El siguiente paso sería crear una nueva rama llamada feature </p>
+<p>Lo hacemos de la siguiente forma:</p>
+<img src="ej2/nuevarama.png">
+<p>Con este comando lo que estamos diciendo al ejercicio es que cree la rama feature en el commit c2 y además queremos que esta rama pase a ser la head y por tanto nos desplazemos a ella</p>
+<img src="ej2/res2.png">
+<p> como podemos comprobar en la imagen anterior hemos creado la rama en el commit c2 y ahora estamos situados sobre ella</p>
+<p>Ahora por último nos queda hacer un push para que estos cambios pasen a remoto, para ello ponemos el siguiente comando:</p>
+<img src="ej2/comando3.png">
+<p>Con este comando lo que estamos haciendo es subir los cambios de la rama feature de nuestro repositorio local al remoto</p>
+<img src="ej2/resfinal.png">
+<p>El resultado final sería ese</p>
